@@ -1,466 +1,221 @@
-<!doctype html>
+
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="./main.css" />
-  </head>
-  <body>
-    <div class="ht__img">
-      <header>
-        <nav class="nav">
-          <div class="container">
-            <div class="nav__wrapper">
-              <img src="./Panto.svg" alt="logo" />
-              <ul class="nav__ul">
-                <li><a class="title3" href="#">Furniture</a></li>
-                <li><a class="title3" href="#">shop</a></li>
-                <li><a class="title3" href="#">About Us</a></li>
-                <li><a class="title3" href="#">Contact</a></li>
-              </ul>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Panto - Modern Furniture</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
 
-              <div class="nav__icons">
-                <img src="./Bag.svg" alt="" />
-              </div>
-            </div>
-          </div>
-        </nav>
-      </header>
-      <section class="hero">
-        <div class="container">
-          <div class="hero__wrapper">
-            <h1 class="title">
-              Make your interior more <br />
-              minimalistic &amp; modern
-            </h1>
+  <header class="hero">
+    <nav class="nav container">
+      <a href="#" class="logo">Panto</a>
 
-            <p class="text">
-              Turn your room with panto into a lot more minimalist
-              <br />
-              and modern with ease and speed
-            </p>
+      <ul class="nav__ul">
+        <li><a href="#">Furniture</a></li>
+        <li><a href="#products">Shop</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
 
-            <div class="search-box">
-              <input type="text" placeholder="What are you looking for?" />
-              <div>
-                <img class="imgs" src="./Frame 48095395.svg" alt="Search" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
-    <main>
-      <section class="welcome">
-        <div class="container">
-          <div class="welcome__wrapper">
-            <div class="card">
-              <div>
-                <h1>
-                  Why <br />
-                  Choosing Us
-                </h1>
-              </div>
-              <div>
-                <h4>Luxury facilities</h4>
-                <p>
-                  The advantage of hiring a workspace <br />
-                  with us is that givees you comfortable <br />
-                  service and all-around facilities.
-                </p>
-                <div class="card2">
-                  <h4><span class="span">more info</span></h4>
-                  <img src="./grommet-icons_form-next-link.svg" alt="" />
-                </div>
-              </div>
-              <div>
-                <h4>Luxury facilities</h4>
-                <p>
-                  The advantage of hiring a workspace <br />
-                  with us is that givees you comfortable <br />
-                  service and all-around facilities.
-                </p>
-                <div class="card2">
-                  <h4><span class="span">more info</span></h4>
-                  <img src="./grommet-icons_form-next-link.svg" alt="" />
-                </div>
-              </div>
-              <div>
-                <h4>Luxury facilities</h4>
-                <p>
-                  The advantage of hiring a workspace <br />
-                  with us is that givees you comfortable <br />
-                  service and all-around facilities.
-                </p>
-                <div class="card2">
-                  <h4><span class="span">more info</span></h4>
-                  <img src="./grommet-icons_form-next-link.svg" alt="" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <a href="#products" class="bag">🛍</a>
+    </nav>
 
-      <section class="best-selling">
-        <div class="container">
-          <h2 class="section-title">Best Selling Product</h2>
+    <div class="hero__content">
+      <h1>Make Your Interior<br>Minimalistic & Modern</h1>
+      <p>
+        Transform your home with elegant furniture
+        designed for comfort and style.
+      </p>
 
-          <div class="categories">
-            <button class="category active">Chair</button>
-            <button class="category">Beds</button>
-            <button class="category">Sofa</button>
-            <button class="category">Lamp</button>
-          </div>
-
-          <div class="carousel">
-            <button class="arrow arrow-left" aria-label="Previous products">
-              &#8592;
-            </button>
-
-            <div class="product-track" id="productTrack">
-              <article class="product-card">
-                <div class="product-image">
-                  <img src="./Group 3742.jpg" alt="Sakarias Armchair" />
-                </div>
-                <div class="product-info">
-                  <p class="product-category">Chair</p>
-                  <h3>Sakarias Armchair</h3>
-                  <div class="stars">★★★★★</div>
-                  <div class="product-bottom">
-                    <p class="price">$ 392</p>
-                    <button class="add-btn" aria-label="Add Sakarias Armchair">
-                      +
-                    </button>
-                  </div>
-                </div>
-              </article>
-
-              <article class="product-card">
-                <div class="product-image">
-                  <img src="./Group 3742 (2).jpg" alt="Baltsar Chair" />
-                </div>
-                <div class="product-info">
-                  <p class="product-category">Chair</p>
-                  <h3>Baltsar Chair</h3>
-                  <div class="stars">★★★★★</div>
-                  <div class="product-bottom">
-                    <p class="price">$ 299</p>
-                    <button class="add-btn" aria-label="Add Baltsar Chair">
-                      +
-                    </button>
-                  </div>
-                </div>
-              </article>
-
-              <article class="product-card">
-                <div class="product-image">
-                  <img
-                    src="./sakarias-armchair-black-sporda-dark-gray__0729767_pe737131_s5_adobespark.jpg"
-                    alt="Anjay Chair"
-                  />
-                </div>
-                <div class="product-info">
-                  <p class="product-category">Chair</p>
-                  <h3>Anjay Chair</h3>
-                  <div class="stars">★★★★★</div>
-                  <div class="product-bottom">
-                    <p class="price">$ 519</p>
-                    <button class="add-btn" aria-label="Add Anjay Chair">
-                      +
-                    </button>
-                  </div>
-                </div>
-              </article>
-
-              <article class="product-card">
-                <div class="product-image">
-                  <img
-                    src="./sakarias-armchair-black-sporda-dark-gray__0729767_pe737131_s5_adobespark.jpg"
-                    alt="Nyantuy Chair"
-                  />
-                </div>
-                <div class="product-info">
-                  <p class="product-category">Chair</p>
-                  <h3>Nyantuy Chair</h3>
-                  <div class="stars">★★★★★</div>
-                  <div class="product-bottom">
-                    <p class="price">$ 921</p>
-                    <button class="add-btn" aria-label="Add Nyantuy Chair">
-                      +
-                    </button>
-                  </div>
-                </div>
-              </article>
-
-              <!-- 5-card -->
-              <article class="product-card">
-                <div class="product-image">
-                  <img src="./Group 3742.jpg" alt="Modern Chair" />
-                </div>
-                <div class="product-info">
-                  <p class="product-category">Chair</p>
-                  <h3>Modern Chair</h3>
-                  <div class="stars">★★★★★</div>
-                  <div class="product-bottom">
-                    <p class="price">$ 420</p>
-                    <button class="add-btn">+</button>
-                  </div>
-                </div>
-              </article>
-
-              <!-- 6-card -->
-              <article class="product-card">
-                <div class="product-image">
-                  <img src="./Group 3742 (2).jpg" alt="Comfort Chair" />
-                </div>
-                <div class="product-info">
-                  <p class="product-category">Chair</p>
-                  <h3>Comfort Chair</h3>
-                  <div class="stars">★★★★★</div>
-                  <div class="product-bottom">
-                    <p class="price">$ 350</p>
-                    <button class="add-btn">+</button>
-                  </div>
-                </div>
-              </article>
-
-              <!-- 7-card -->
-              <article class="product-card">
-                <div class="product-image">
-                  <img
-                    src="./sakarias-armchair-black-sporda-dark-gray__0729767_pe737131_s5_adobespark.jpg"
-                    alt="Classic Chair"
-                  />
-                </div>
-                <div class="product-info">
-                  <p class="product-category">Chair</p>
-                  <h3>Classic Chair</h3>
-                  <div class="stars">★★★★★</div>
-                  <div class="product-bottom">
-                    <p class="price">$ 480</p>
-                    <button class="add-btn">+</button>
-                  </div>
-                </div>
-              </article>
-
-              <!-- 8-card -->
-              <article class="product-card">
-                <div class="product-image">
-                  <img
-                    src="./sakarias-armchair-black-sporda-dark-gray__0729767_pe737131_s5_adobespark.jpg"
-                    alt="Luxury Chair"
-                  />
-                </div>
-                <div class="product-info">
-                  <p class="product-category">Chair</p>
-                  <h3>Luxury Chair</h3>
-                  <div class="stars">★★★★★</div>
-                  <div class="product-bottom">
-                    <p class="price">$ 550</p>
-                    <button class="add-btn">+</button>
-                  </div>
-                </div>
-              </article>
-            </div>
-
-            <button class="arrow arrow-right" aria-label="Next products">
-              &#8594;
-            </button>
-          </div>
-
-          <a href="#" class="view-all"> View All <span>⟶</span> </a>
-        </div>
-      </section>
-      <section class="shop">
-        <div class="container">
-          <div class="shop__wrapper">
-            <div class="card78">
-              <div><img class="img3" src="./Rectangle 1446.jpg" alt="" /></div>
-              <div>
-                <h5><span class="span">experiences</span></h5>
-                <h1>
-                  we provide you the <br />
-                  best experience
-                </h1>
-                <p>
-                  You don’t have to worry about the result because all of these
-                  <br />interiors are made by people who are professionals in
-                  their fields <br />
-                  with an elegant and lucurious style and with premium quality
-                  materials
-                </p>
-                <div class="card2">
-                  <h4><span class="span">more info</span></h4>
-                  <img src="./grommet-icons_form-next-link.svg" alt="" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="material">
-        <div class="container">
-          <div class="material__wrapper">
-            <div class="material3">
-              <div>
-                <h5>Materials</h5>
-                <h1>
-                  Very serious <br />
-                  materials for making <br />
-                  furniture
-                </h1>
-                <p>
-                  Because panto was very serious about designing furniture for
-                  our <br />environment, using a very expensive and famous
-                  capital but at a <br />
-                  relatively low price
-                </p>
-                <div class="card2">
-                  <h4><span class="span">more info</span></h4>
-                  <img src="./grommet-icons_form-next-link.svg" alt="" />
-                </div>
-              </div>
-              <div class="img10">
-                <div><img src="./Group 48095417.jpg" alt=""></div>
-                <div><img src="./Group 48095419.jpg" alt=""></div>
-              </div>
-              <div><img src="./Rectangle 1446 (1).jpg" alt=""></div>
-            </div>
-          </div>
-        </div>
-      </section>
-      
-<section class="testimonials">
-  <div class="container">
-
-    <div class="testimonials__heading">
-      <span>TESTIMONIALS</span>
-      <h2>Our Client Reviews</h2>
-    </div>
-
-    <div class="testimonials__viewport">
-      <div class="testimonials__track">
-
-        <div class="testimonial-card">
-          <img src="./unsplash__HqHX3LBN18.jpg" class="testimonial-card__room" alt="Living room">
-          <div class="testimonial-card__content">
-            <img src="./Group 48095423.svg" class="testimonial-card__avatar" alt="Client">
-            <h3>Bang Upin</h3>
-            <p class="testimonial-card__job">Designer</p>
-            <p class="testimonial-card__text">Beautiful furniture and excellent quality for my home.</p>
-            <div class="testimonial-card__stars">★★★★★</div>
-          </div>
-        </div>
-
-        <div class="testimonial-card">
-          <img src="./unsplash__HqHX3LBN18.jpg" class="testimonial-card__room" alt="Bedroom">
-          <div class="testimonial-card__content">
-            <img src="./Ellipse 1131.svg" class="testimonial-card__avatar" alt="Client">
-            <h3>Ibuk Sukijan</h3>
-            <p class="testimonial-card__job">Housewife</p>
-            <p class="testimonial-card__text">My room looks modern, beautiful and comfortable.</p>
-            <div class="testimonial-card__stars">★★★★★</div>
-          </div>
-        </div>
-
-        <div class="testimonial-card">
-          <img src="./unsplash__HqHX3LBN18.jpg" class="testimonial-card__room" alt="Modern room">
-          <div class="testimonial-card__content">
-            <img src="./Group 48095423 (1).svg" class="testimonial-card__avatar" alt="Client">
-            <h3>Mpok Ina</h3>
-            <p class="testimonial-card__job">Employee</p>
-            <p class="testimonial-card__text">Amazing furniture at a very affordable price.</p>
-            <div class="testimonial-card__stars">★★★★★</div>
-          </div>
-        </div>
-
-        <div class="testimonial-card">
-          <img src="./room4.jpg" class="testimonial-card__room" alt="Interior">
-          <div class="testimonial-card__content">
-            <img src="./avatar4.jpg" class="testimonial-card__avatar" alt="Client">
-            <h3>Andi Pratama</h3>
-            <p class="testimonial-card__job">Customer</p>
-            <p class="testimonial-card__text">The design is perfect for my living room.</p>
-            <div class="testimonial-card__stars">★★★★★</div>
-          </div>
-        </div>
-
-        <div class="testimonial-card">
-          <img src="./room5.jpg" class="testimonial-card__room" alt="Cozy room">
-          <div class="testimonial-card__content">
-            <img src="./avatar5.jpg" class="testimonial-card__avatar" alt="Client">
-            <h3>Siti Aminah</h3>
-            <p class="testimonial-card__job">Teacher</p>
-            <p class="testimonial-card__text">Great quality and lovely furniture. I recommend it!</p>
-            <div class="testimonial-card__stars">★★★★★</div>
-          </div>
-        </div>
-
-        <div class="testimonial-card">
-          <img src="./room6.jpg" class="testimonial-card__room" alt="Elegant room">
-          <div class="testimonial-card__content">
-            <img src="./avatar6.jpg" class="testimonial-card__avatar" alt="Client">
-            <h3>Rina Putri</h3>
-            <p class="testimonial-card__job">Customer</p>
-            <p class="testimonial-card__text">Excellent service and beautiful furniture.</p>
-            <div class="testimonial-card__stars">★★★★★</div>
-          </div>
-        </div>
-
+      <div class="search-box">
+        <input type="text" placeholder="What are you looking for?">
+        <button aria-label="Search">⌕</button>
       </div>
     </div>
+  </header>
 
-    <button class="testimonial-arrow testimonial-arrow--prev" aria-label="Previous">&#8592;</button>
-    <button class="testimonial-arrow testimonial-arrow--next" aria-label="Next">&#8594;</button>
+  <main>
+    <section class="welcome container" id="about">
+      <h2>Why Choose Us?</h2>
 
-  </div>
-</section>
-<footer class="footer">
-  <div class="container">
-<div class="card9">
-    <div class="footer-left">
-      <h2 class="footer-logo">panto</h2>
+      <article class="feature">
+        <h3>Luxury Comfort</h3>
+        <p>Enjoy comfortable furniture made for everyday living.</p>
+      </article>
 
-      <p>We help you find<br />your dream plant</p>
+      <article class="feature">
+        <h3>Quality Materials</h3>
+        <p>Discover durable materials and carefully crafted designs.</p>
+      </article>
 
-      <div class="social-icons">
-        <a href="#">f</a>
-        <a href="#">◎</a>
-        <a href="#">♥</a>
+      <article class="feature">
+        <h3>Modern Designs</h3>
+        <p>Give your home a fresh look with stylish furniture.</p>
+      </article>
+    </section>
+
+    <section class="best-selling" id="products">
+      <div class="container">
+        <h2 class="section-title">Best Selling Products</h2>
+
+        <div class="categories">
+          <button class="category active">Chairs</button>
+          <button class="category">Beds</button>
+          <button class="category">Sofas</button>
+          <button class="category">Lamps</button>
+        </div>
+
+        <div class="products">
+          <article class="product-card">
+            <img src="./Group 3742.jpg" alt="Sakarias armchair">
+            <div class="product-info">
+              <span>Chair</span>
+              <h3>Sakarias Armchair</h3>
+              <div class="stars">★★★★★</div>
+              <div class="product-bottom">
+                <strong>$392</strong>
+                <button class="add-btn">+</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <img src="./Group 3742 (2).jpg" alt="Baltsar chair">
+            <div class="product-info">
+              <span>Chair</span>
+              <h3>Baltsar Chair</h3>
+              <div class="stars">★★★★★</div>
+              <div class="product-bottom">
+                <strong>$299</strong>
+                <button class="add-btn">+</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <img src="./sakarias-armchair-black-sporda-dark-gray__0729767_pe737131_s5_adobespark.jpg" alt="Anjay chair">
+            <div class="product-info">
+              <span>Chair</span>
+              <h3>Anjay Chair</h3>
+              <div class="stars">★★★★★</div>
+              <div class="product-bottom">
+                <strong>$519</strong>
+                <button class="add-btn">+</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <img src="./Group 3742.jpg" alt="Modern chair">
+            <div class="product-info">
+              <span>Chair</span>
+              <h3>Modern Chair</h3>
+              <div class="stars">★★★★★</div>
+              <div class="product-bottom">
+                <strong>$420</strong>
+                <button class="add-btn">+</button>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <a href="#" class="view-all">View All →</a>
       </div>
+    </section>
 
-      <small>2023 all Right Reserved Term of use GREENMIND</small>
-    </div>
-
-    <div class="footer-links">
-      <div>
-        <h4>Information</h4>
-        <a href="#">About</a>
-        <a href="#">Product</a>
-        <a href="#">Blog</a>
-      </div>
+    <section class="experience container">
+      <img src="./Rectangle 1446.jpg" alt="Elegant living room">
 
       <div>
-        <h4>Company</h4>
-        <a href="#">Community</a>
-        <a href="#">Career</a>
-        <a href="#">Our story</a>
+        <span class="eyebrow">EXPERIENCES</span>
+        <h2>We Provide You<br>the Best Experience</h2>
+        <p>
+          Create a beautiful home with professional interior
+          designs, premium materials and elegant furniture.
+        </p>
+        <a href="#contact" class="more-info">More information →</a>
+      </div>
+    </section>
+
+    <section class="materials container">
+      <div>
+        <span class="eyebrow">MATERIALS</span>
+        <h2>Carefully Selected<br>Materials</h2>
+        <p>
+          Our furniture combines durable materials,
+          thoughtful details and timeless design.
+        </p>
+        <a href="#contact" class="more-info">Discover more →</a>
       </div>
 
+      <img src="./Group 48095417.jpg" alt="Furniture materials">
+      <img src="./Rectangle 1446 (1).jpg" alt="Modern furniture">
+    </section>
+
+    <section class="testimonials container">
+      <span class="eyebrow">TESTIMONIALS</span>
+      <h2>What Our Customers Say</h2>
+
+      <div class="reviews">
+        <article class="review">
+          <h3>Bang Upin</h3>
+          <span>Interior Designer</span>
+          <p>Beautiful furniture and excellent quality for my home.</p>
+          <div class="stars">★★★★★</div>
+        </article>
+
+        <article class="review">
+          <h3>Ibuk Sukijan</h3>
+          <span>Homeowner</span>
+          <p>My room looks modern, welcoming and comfortable.</p>
+          <div class="stars">★★★★★</div>
+        </article>
+
+        <article class="review">
+          <h3>Mpok Ina</h3>
+          <span>Customer</span>
+          <p>A lovely collection with stylish and practical designs.</p>
+          <div class="stars">★★★★★</div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" id="contact">
+    <div class="container footer__content">
       <div>
-        <h4>Contact</h4>
-        <a href="#">Getting Started</a>
-        <a href="#">Pricing</a>
-        <a href="#">Resources</a>
+        <a href="#" class="logo footer-logo">Panto</a>
+        <p>Helping you create a home<br>you love to live in.</p>
+        <small>© 2026 Panto. All rights reserved.</small>
+      </div>
+
+      <div class="footer-links">
+        <div>
+          <h3>Information</h3>
+          <a href="#about">About Us</a>
+          <a href="#products">Products</a>
+          <a href="#">Our Blog</a>
+        </div>
+
+        <div>
+          <h3>Company</h3>
+          <a href="#">Our Story</a>
+          <a href="#">Careers</a>
+          <a href="#">Community</a>
+        </div>
+
+        <div>
+          <h3>Contact</h3>
+          <a href="mailto:hello@panto.example">Email Us</a>
+          <a href="#">Support</a>
+          <a href="#">Help Center</a>
+        </div>
       </div>
     </div>
-</div>
-  </div>
-</footer>
+  </footer>
 
-
-    </main>
-  </body>
+</body>
 </html>
